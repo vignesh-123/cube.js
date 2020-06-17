@@ -1,10 +1,10 @@
 cube(`Products`, {
   sql: `select * from public.products`,
-  
+
   joins: {
     ProductCategories: {
       relationship: `belongsTo`,
-      sql: `${Products}.category_id = ${ProductCategories}.id`
+      sql: `${Products}.product_category_id = ${ProductCategories}.id`
     }
   },
 
