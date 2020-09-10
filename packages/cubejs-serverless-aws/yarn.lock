@@ -683,12 +683,13 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@cubejs-backend/api-gateway@^0.19.54":
-  version "0.19.54"
-  resolved "https://registry.yarnpkg.com/@cubejs-backend/api-gateway/-/api-gateway-0.19.54.tgz#9a8e3bc9dd67fcbef9e85cb183abd1b2ac851864"
-  integrity sha512-VFHQZAzSI+3FyKr73BFGvvsFYFxTT5JwAPFvbNwzF0bcBEiLCzKNdHxfVRv72jiMXGegP1ouqF+9Hv8+/A4aHQ==
+"@cubejs-backend/api-gateway@^0.20.5":
+  version "0.20.5"
+  resolved "https://registry.yarnpkg.com/@cubejs-backend/api-gateway/-/api-gateway-0.20.5.tgz#9ba368e4a09dbbb9b50adbc4b0a79531b685dc2a"
+  integrity sha512-jI0qr0YaXqagL9J6P70WWh0Hb5Xwv9pfL4iUvrpHg/ci0CaSHOxb3o2AmL0CaGdANTDiNOkoxUsHXKmrRI/WzA==
   dependencies:
     "@hapi/joi" "^15.1.1"
+    body-parser "^1.19.0"
     chrono-node "1.4.4"
     jsonwebtoken "^8.3.0"
     moment "^2.24.0"
@@ -696,19 +697,19 @@
     ramda "^0.27.0"
     uuid "^3.3.3"
 
-"@cubejs-backend/query-orchestrator@^0.19.60":
-  version "0.19.60"
-  resolved "https://registry.yarnpkg.com/@cubejs-backend/query-orchestrator/-/query-orchestrator-0.19.60.tgz#e3da7e98b3027bc1ffa63659c2e1b96184830d10"
-  integrity sha512-KHfDneCLgJeHm3xWH5Q+U7HM1w7bIudzBXnKxqXUtZtRGAOe9VOyJxm9PDioOLSlenltr8/m307KvCeNvNfzpQ==
+"@cubejs-backend/query-orchestrator@^0.20.0":
+  version "0.20.0"
+  resolved "https://registry.yarnpkg.com/@cubejs-backend/query-orchestrator/-/query-orchestrator-0.20.0.tgz#e12cec9cf32ac90c3659a7cfc2c21a175d2c3508"
+  integrity sha512-HwTTXcgkNwrgmjl+zZeXwd9cn5usPl5lZSkfP5q8UPbHq6NkGA0u7o8hY8Do9zxEAXyrhluuE1/lHYNyBquJxw==
   dependencies:
     generic-pool "^3.7.1"
     ramda "^0.27.0"
     redis "^3.0.2"
 
-"@cubejs-backend/schema-compiler@^0.19.57":
-  version "0.19.57"
-  resolved "https://registry.yarnpkg.com/@cubejs-backend/schema-compiler/-/schema-compiler-0.19.57.tgz#50b559c8344d45d0377da781937cd63552f21ac2"
-  integrity sha512-omzlHEVmO+6WHvbZNOWbZ2yYIYiivsaQMq66J7XbC3lPn3lM9WsPjuXo9G3m6O+HoiWQnOT/n3l3LCf4aJnQ9g==
+"@cubejs-backend/schema-compiler@^0.20.5":
+  version "0.20.5"
+  resolved "https://registry.yarnpkg.com/@cubejs-backend/schema-compiler/-/schema-compiler-0.20.5.tgz#6b0cd7c729b1ef17728d006d620efaf128699623"
+  integrity sha512-C+EnQYZRAkPnJNfwzbMOwbu+hGKdaoTjdjn+0AVXi7ONcA06eo8zjjb0IS2a4y88FpzJ9HkLHxsgq8+po1HeqA==
   dependencies:
     "@babel/generator" "^7.4.0"
     "@babel/parser" "^7.4.2"
@@ -727,14 +728,14 @@
     ramda "^0.27.0"
     syntax-error "^1.3.0"
 
-"@cubejs-backend/server-core@^0.19.60":
-  version "0.19.60"
-  resolved "https://registry.yarnpkg.com/@cubejs-backend/server-core/-/server-core-0.19.60.tgz#c3fd1fd945fef95c387715d40da60387119d339b"
-  integrity sha512-QX7NSwzkX5PSV9MPuvAhUgS0bztWkMe9B4qK9lbdmAXot5Q6ttTI5tdK/YJTA51I63b6sRltZYiIeDAxncTyMQ==
+"@cubejs-backend/server-core@^0.20.5":
+  version "0.20.5"
+  resolved "https://registry.yarnpkg.com/@cubejs-backend/server-core/-/server-core-0.20.5.tgz#f4be7eee4f17b94909ad814641d44b75788b2ac2"
+  integrity sha512-WypU7ewP4MTGDj2F0w7slWDZA0VJi6L1MfdzTvFiBszXGAlr5O5ojedHjmfzQvYxqf2oweSMsIFzHiqaCpMtGg==
   dependencies:
-    "@cubejs-backend/api-gateway" "^0.19.54"
-    "@cubejs-backend/query-orchestrator" "^0.19.60"
-    "@cubejs-backend/schema-compiler" "^0.19.57"
+    "@cubejs-backend/api-gateway" "^0.20.5"
+    "@cubejs-backend/query-orchestrator" "^0.20.0"
+    "@cubejs-backend/schema-compiler" "^0.20.5"
     codesandbox-import-utils "^2.1.12"
     cross-spawn "^7.0.1"
     decompress "^4.2.1"
@@ -752,12 +753,12 @@
     sqlstring "^2.3.1"
     uuid "^3.3.3"
 
-"@cubejs-backend/serverless@^0.19.60":
-  version "0.19.60"
-  resolved "https://registry.yarnpkg.com/@cubejs-backend/serverless/-/serverless-0.19.60.tgz#733812437bfe85482502057d8ce6dadf555c62d0"
-  integrity sha512-+Ffjpqahdh551vGmsT8m5tk4kKWGkJMDaRliBsdhUCczPAmrpW7xZB7TLTSrU4eKn8sHikZ6S3XeSOzC+IRbJQ==
+"@cubejs-backend/serverless@^0.20.5":
+  version "0.20.5"
+  resolved "https://registry.yarnpkg.com/@cubejs-backend/serverless/-/serverless-0.20.5.tgz#afd6f6a81162d0bea63400759ff9f5040e897c92"
+  integrity sha512-HVA4bWahtXxUlkDeG54LffDRcmMYM+UHOE3qONrvHch5uv2bSD+z2GnJN58TLfO5P0336tQn1Ds4EQ77mo50aA==
   dependencies:
-    "@cubejs-backend/server-core" "^0.19.60"
+    "@cubejs-backend/server-core" "^0.20.5"
     cors "^2.8.5"
     serverless-express "^2.0.11"
 
@@ -990,14 +991,14 @@ binaryextensions@^2.1.2:
   integrity sha512-bHhs98rj/7i/RZpCSJ3uk55pLXOItjIrh2sRQZSM6OoktScX+LxJzvlU+FELp9j3TdcddTmmYArLSGptCTwjuw==
 
 bl@^1.0.0:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/bl/-/bl-1.2.2.tgz#a160911717103c07410cef63ef51b397c025af9c"
-  integrity sha512-e8tQYnZodmebYDWGH7KMRvtzKXaJHx3BbilrgZCfvyLUYdKpK1t5PSPmpkny/SgiTSCnjfLW7v5rlONXVFkQEA==
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/bl/-/bl-1.2.3.tgz#1e8dd80142eac80d7158c9dccc047fb620e035e7"
+  integrity sha512-pvcNpa0UU69UT341rO6AYy4FVAIkUHuZXRIWbq+zHnsVcRzDDjIAhGuuYoi0d//cwIwtt4pkpKycWEfjdV+vww==
   dependencies:
     readable-stream "^2.3.5"
     safe-buffer "^5.1.1"
 
-body-parser@1.19.0:
+body-parser@1.19.0, body-parser@^1.19.0:
   version "1.19.0"
   resolved "https://registry.yarnpkg.com/body-parser/-/body-parser-1.19.0.tgz#96b2709e57c9c4e09a6fd66a8fd979844f69f08a"
   integrity sha512-dhEPs72UPbDnAQJ9ZKMNTP6ptJaionhP5cBb541nXPlW60Jepo9RV/a4fX4XWW9CuFNK22krhrj1+rgzifNCsw==
@@ -2991,12 +2992,7 @@ safe-buffer@5.1.2, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.1.2.tgz#991ec69d296e0313747d59bdfd2b745c35f8828d"
   integrity sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==
 
-safe-buffer@^5.0.1:
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.2.0.tgz#b74daec49b1148f88c64b68d49b1e815c1f2f519"
-  integrity sha512-fZEwUGbVl7kouZs1jCdMLdt95hdIv0ZeHg6L7qPeciMZhZ+/gdesW4wgTARkrFWEpspjEATAzUGPG8N2jJiwbg==
-
-safe-buffer@^5.1.1:
+safe-buffer@^5.0.1, safe-buffer@^5.1.1:
   version "5.2.1"
   resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.2.1.tgz#1eaf9fa9bdb1fdd4ec75f58f9cdb4e6b7827eec6"
   integrity sha512-rp3So07KcdmmKbGvgaNxQSJr7bGVSVk5S9Eq1F+ppbRo70+YeaDxkw5Dd8NPN+GD6bjnYm2VuPuCXmpuYvmCXQ==
