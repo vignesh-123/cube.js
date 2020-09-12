@@ -683,10 +683,10 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@cubejs-backend/api-gateway@^0.20.0":
-  version "0.20.0"
-  resolved "https://registry.yarnpkg.com/@cubejs-backend/api-gateway/-/api-gateway-0.20.0.tgz#a47c7d401bb6f81bdb200157c8bea8614f80a30f"
-  integrity sha512-MvkyYwkPUAVQe5hWIIrcdPHJvrn0KDoca+zkPohWahsxM2t1GTGe9S7efpyALXXtlLCPoXfr7Y10UV0wrvVEIw==
+"@cubejs-backend/api-gateway@^0.20.7":
+  version "0.20.7"
+  resolved "https://registry.yarnpkg.com/@cubejs-backend/api-gateway/-/api-gateway-0.20.7.tgz#81c0e9e067460e06e4ef92e16829b799633fd97a"
+  integrity sha512-S3g4jbipSU7CRUV+vh/ZmgTzzgffPxYn4GPqwVG9AKX41BScZZuLLVbql3tmkTaUGb8uVLuhviLxpHly8jQ4Wg==
   dependencies:
     "@hapi/joi" "^15.1.1"
     body-parser "^1.19.0"
@@ -706,10 +706,10 @@
     ramda "^0.27.0"
     redis "^3.0.2"
 
-"@cubejs-backend/schema-compiler@^0.20.0":
-  version "0.20.0"
-  resolved "https://registry.yarnpkg.com/@cubejs-backend/schema-compiler/-/schema-compiler-0.20.0.tgz#756d581cc9ac851c3d49bbacf5210045f727ac62"
-  integrity sha512-Yxc4EmkvGbtXLwnDiwP74ygdkfOI4XrWKf2qnfN6KmZm72Ypm46mtzwT0JOxPVYRzrbZjqMunjdczkVGfIIU2A==
+"@cubejs-backend/schema-compiler@^0.20.7":
+  version "0.20.7"
+  resolved "https://registry.yarnpkg.com/@cubejs-backend/schema-compiler/-/schema-compiler-0.20.7.tgz#1ff39da51853d092ac02225e6790d07d0b488ec1"
+  integrity sha512-06gYmspV2DLuFepjccZaCqb4caFcpKbfZ2FfSSeAmHKZ00YawtpAdFU3pmdd2biCO9iZPS/Zuxdw7vUK3ckR/A==
   dependencies:
     "@babel/generator" "^7.4.0"
     "@babel/parser" "^7.4.2"
@@ -728,14 +728,14 @@
     ramda "^0.27.0"
     syntax-error "^1.3.0"
 
-"@cubejs-backend/server-core@^0.20.0":
-  version "0.20.0"
-  resolved "https://registry.yarnpkg.com/@cubejs-backend/server-core/-/server-core-0.20.0.tgz#1609ff97987824cd5c0d22cb36e91e9a6d6446e7"
-  integrity sha512-GTfW6L6XvTsWqqU/QQykEFaDQ0O2sQjgvDvNI186cO78m9NrtTUfwCtfLIOS8bd/L6NXrpydVYL5kZkJSoKZwQ==
+"@cubejs-backend/server-core@^0.20.7":
+  version "0.20.7"
+  resolved "https://registry.yarnpkg.com/@cubejs-backend/server-core/-/server-core-0.20.7.tgz#feea1952249fe86545545b23d68ed855702fc915"
+  integrity sha512-E4xLzyOIsX6+dZljFf5KMPWpKupMbAfbYukVGAEf3b06UhGkimCv4NPrRChXnQHygcyu/u4KFivdV4xabTaU+g==
   dependencies:
-    "@cubejs-backend/api-gateway" "^0.20.0"
+    "@cubejs-backend/api-gateway" "^0.20.7"
     "@cubejs-backend/query-orchestrator" "^0.20.0"
-    "@cubejs-backend/schema-compiler" "^0.20.0"
+    "@cubejs-backend/schema-compiler" "^0.20.7"
     codesandbox-import-utils "^2.1.12"
     cross-spawn "^7.0.1"
     decompress "^4.2.1"
@@ -753,12 +753,12 @@
     sqlstring "^2.3.1"
     uuid "^3.3.3"
 
-"@cubejs-backend/serverless@^0.20.0":
-  version "0.20.0"
-  resolved "https://registry.yarnpkg.com/@cubejs-backend/serverless/-/serverless-0.20.0.tgz#7e28dcefc579ea5baa6fa8a928ede9e871a059b2"
-  integrity sha512-NU17yyTZMWR7lVfmLpsC78JoaTa9qaDU2Yy2rhZpA9fWdEO81/i8oVUHEtUHJYihNrOL4WjFsuebwzHCeMJcoA==
+"@cubejs-backend/serverless@^0.20.7":
+  version "0.20.7"
+  resolved "https://registry.yarnpkg.com/@cubejs-backend/serverless/-/serverless-0.20.7.tgz#f0a080d8d9f789fecbbbfddf056b5e147e709d50"
+  integrity sha512-hKjuOamKYybGUFTap4I/Bhn+FnaWKKAX01FLFc/3okxZkvdvGRif4eIbPFvpXucaw4cS+CS0J8Lp6jcfSXGdJw==
   dependencies:
-    "@cubejs-backend/server-core" "^0.20.0"
+    "@cubejs-backend/server-core" "^0.20.7"
     cors "^2.8.5"
     serverless-express "^2.0.11"
 
@@ -2965,15 +2965,10 @@ node-dijkstra@^2.5.0:
   resolved "https://registry.yarnpkg.com/node-dijkstra/-/node-dijkstra-2.5.0.tgz#0feb76c5a05f35b56e786de6df4d3364af28d4e8"
   integrity sha1-D+t2xaBfNbVueG3m300zZK8o1Og=
 
-node-fetch@^2.3.0:
-  version "2.4.1"
-  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.4.1.tgz#b2e38f1117b8acbedbe0524f041fb3177188255d"
-  integrity sha512-P9UbpFK87NyqBZzUuDBDz4f6Yiys8xm8j7ACDbi6usvFm6KItklQUKjeoqTrYS/S1k6I8oaOC2YLLDr/gg26Mw==
-
-node-fetch@^2.6.0:
-  version "2.6.0"
-  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.0.tgz#e633456386d4aa55863f676a7ab0daa8fdecb0fd"
-  integrity sha512-8dG4H5ujfvFiqDmVu9fQ5bOHUC15JMjMY/Zumv26oOvvVJjM67KF8koCWIabKQ1GJIa9r2mMZscBq/TbdOcmNA==
+node-fetch@^2.3.0, node-fetch@^2.6.0:
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.1.tgz#045bd323631f76ed2e2b55573394416b639a0052"
+  integrity sha512-V4aYg89jEoVRxRb2fJdAg8FHvI7cEyYdVAh94HH0UIK8oJxUfkjlDQN9RbMx+bEjP7+ggMiFRprSti032Oipxw==
 
 node-forge@^0.9.0:
   version "0.9.1"
