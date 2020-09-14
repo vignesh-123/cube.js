@@ -1,6 +1,6 @@
 /* globals describe, test, expect, afterAll */
-const QueryQueue = require('../orchestrator/QueryQueue');
-const RedisPool = require('../orchestrator/RedisPool');
+const QueryQueue = require('../src/orchestrator/QueryQueue');
+const RedisPool = require('../src/orchestrator/RedisPool');
 
 const QueryQueueTest = (name, options) => {
   describe(`QueryQueue${name}`, () => {
