@@ -16,7 +16,7 @@
   "scripts": {
     "tsc": "tsc",
     "watch": "tsc -w",
-    "test": "jest --runInBand --verbose",
+    "test": "jest --runInBand --verbose --rootDir dist",
     "lint": "eslint dist/src/orchestrator/*.js dist/src/driver/*.js",
     "prepublishOnly": "rm -rf dist && tsc"
   },
